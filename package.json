@@ -10,10 +10,12 @@
   ],
   "devDependencies": {
     "stylelint": "^7.9.0",
-    "stylelint-config-standard": "^16.0.0"
+    "stylelint-config-standard": "^16.0.0",
+    "stylus": "^0.54.5"
   },
   "scripts": {
-    "test": "stylelint normalize.css"
+    "test": "stylelint normalize.css",
+    "stylus": "stylus -C normalize.css"
   },
   "repository": "necolas/normalize.css",
   "license": "MIT",
